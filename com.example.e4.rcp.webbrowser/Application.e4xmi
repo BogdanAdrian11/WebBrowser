@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_05nGsP9LEee7J_Wh4LUTUw" elementId="com.example.e4.rcp.webbrowser.application">
+  <children xsi:type="basic:Window" xmi:id="_QQjCoP9MEee7J_Wh4LUTUw" elementId="com.example.e4.rcp.webbrowser.window.mainwindow" label="Main Window">
+    <children xsi:type="basic:PartStack" xmi:id="_pZ7h4P9MEee7J_Wh4LUTUw" elementId="com.example.e4.rcp.webbrowser.partstack.0">
+      <children xsi:type="basic:Part" xmi:id="_1oMOgP9MEee7J_Wh4LUTUw" elementId="com.example.e4.rcp.webbrowser.part.tab" contributionURI="bundleclass://com.example.e4.rcp.webbrowser/com.example.e4.rcp.webbrowser.parts.TabPart" label="Tab"/>
+    </children>
+    <mainMenu xmi:id="_XyKRwP9_Eee7J_Wh4LUTUw" elementId="org.eclipse.ui.file.menu" mnemonics="">
+      <children xsi:type="menu:Menu" xmi:id="_b-ocwP-AEee7J_Wh4LUTUw" elementId="com.example.e4.rcp.webbrowser.menu.file" label="&amp;File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_OvBskAWOEei-QNaL70YIdw" elementId="com.example.e4.rcp.webbrowser.handledmenuitem.bookmarks" label="&amp;Bookmarks" command="_S-xDcAWOEei-QNaL70YIdw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_YNsXMP9_Eee7J_Wh4LUTUw" elementId="com.example.e4.rcp.webbrowser.handledmenuitem.exit" label="&amp;Exit" command="_20oEQP9_Eee7J_Wh4LUTUw"/>
+      </children>
+    </mainMenu>
+  </children>
+  <handlers xmi:id="_7wzqYP9_Eee7J_Wh4LUTUw" elementId="com.example.e4.rcp.webbrowser.handler.exit" contributionURI="bundleclass://com.example.e4.rcp.webbrowser/com.example.e4.rcp.webbrowser.handlers.ExitHandler" command="_20oEQP9_Eee7J_Wh4LUTUw"/>
+  <handlers xmi:id="_WnAVcAWOEei-QNaL70YIdw" elementId="com.example.e4.rcp.webbrowser.handler.bookmarks" contributionURI="bundleclass://com.example.e4.rcp.webbrowser/com.example.e4.rcp.webbrowser.handlers.BookmarksHandler" command="_S-xDcAWOEei-QNaL70YIdw"/>
+  <commands xmi:id="_20oEQP9_Eee7J_Wh4LUTUw" elementId="org.eclipse.ui.file.exit" commandName="Exit"/>
+  <commands xmi:id="_S-xDcAWOEei-QNaL70YIdw" elementId="com.example.e4.rcp.webbrowser.command.bookmarks" commandName="Bookmarks"/>
+  <addons xmi:id="_05nGsf9LEee7J_Wh4LUTUw" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_05nGsv9LEee7J_Wh4LUTUw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_05nGs_9LEee7J_Wh4LUTUw" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_05nGtP9LEee7J_Wh4LUTUw" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_05nGtf9LEee7J_Wh4LUTUw" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_05nGtv9LEee7J_Wh4LUTUw" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_05nGt_9LEee7J_Wh4LUTUw" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+</application:Application>

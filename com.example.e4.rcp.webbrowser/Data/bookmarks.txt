@@ -1,0 +1,10 @@
+google
+https://www.google.ro/?gws_rd=cr&dcr=0&ei=_35xWqTVBoKhsAG545nwCw
+fortech
+https://www.fortech.ro/
+vogella
+http://www.vogella.com/tutorials/EclipseRCP/article.html#introduction-to-eclipse-based-applications
+eclipse4 tutorials
+http://wiki.eclipse.org/Eclipse4/Tutorials
+DI
+http://wiki.eclipse.org/Eclipse4/Tutorials
